@@ -1,7 +1,10 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 import "../css/Footer.css";
 
+// /* <MDBFooter color="" className="font-small pt-4 mt-4">*/
 const Footer = () => {
   return (
       <div className="footer">
@@ -10,17 +13,16 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
-            <h5 className="title">Footer Content</h5>
+            <h5 className="title">Site web perso</h5>
             <p>
-              Here you can use rows and columns here to organize your footer
-              content.
+            LE CODAGE SIMPLIFIÉ
             </p>
           </MDBCol>
           <MDBCol md="6">
             <h5 className="title">Links</h5>
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Link 1</a>
+                <a href="#!">hello<FontAwesomeIcon icon={faHome} /></a>
               </li>
               <li className="list-unstyled">
                 <a href="#!">Link 2</a>

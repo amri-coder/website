@@ -38,7 +38,7 @@ class App extends React.Component{
 
                                     <Nav.Link href="/contact-us">Contact</Nav.Link>
 
-                                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                                    <NavDropdown title="Les catégories" id="basic-nav-dropdown">
 
                                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
 
