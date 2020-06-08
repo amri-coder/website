@@ -1,9 +1,12 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from "@fortawesome/free-solid-svg-icons";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons' ;
 import "../css/Footer.css";
+
+
+
 
 // /* <MDBFooter color="" className="font-small pt-4 mt-4">*/
 const Footer = () => {
@@ -14,7 +17,7 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
-            <h5 className="title"><FontAwesomeIcon icon={faHome} />  Site web perso </h5>
+            <h5 className="title">Site web perso</h5>
             <p className="title">
             LE CODAGE SIMPLIFIÉ
             </p>
@@ -24,10 +27,10 @@ const Footer = () => {
           Retrouvez moi !  
             <ul>
               <li className="title2">
-                <a href="https://github.com/amri-coder">github</a>
+                <a href="https://github.com/amri-coder"><FontAwesomeIcon icon={faGithub} />github</a>
               </li>
               <li>
-                <a href="#!">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/hafedh-amri-302228187/"><FontAwesomeIcon icon={faLinkedinIn} />LinkedIn</a>
               </li>
               <li>
                 <a href="#!">Link 3</a>

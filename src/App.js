@@ -10,6 +10,8 @@ import {
   import AboutUs from './components/AboutUs';
   import ContactUs from './components/ContactUs';
   import Footer from './components/Footer';
+  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+  import { faHome} from "@fortawesome/free-solid-svg-icons";
  // import "./App.css";
 
 class App extends React.Component{
@@ -24,7 +26,7 @@ class App extends React.Component{
 
                             <Navbar bg="blue" variant="primary" expand="lg" sticky="top">
 
-                                <Navbar.Brand href="/">Amri  </Navbar.Brand>
+                                <Navbar.Brand href="/"><FontAwesomeIcon icon={faHome} />    Amri  </Navbar.Brand>
 
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
