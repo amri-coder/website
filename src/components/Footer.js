@@ -26,17 +26,11 @@ const Footer = () => {
           <MDBCol md="6" className="title">
           Retrouvez moi !  
             <ul>
-              <li className="title2">
-                <a href="https://github.com/amri-coder"><FontAwesomeIcon icon={faGithub} />github</a>
+              <li>
+                <a href="https://github.com/amri-coder"><FontAwesomeIcon icon={faGithub} /> github</a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/hafedh-amri-302228187/"><FontAwesomeIcon icon={faLinkedinIn} />LinkedIn</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
+                <a href="https://www.linkedin.com/in/hafedh-amri-302228187/"><FontAwesomeIcon icon={faLinkedinIn} />  LinkedIn</a>
               </li>
             </ul>
           </MDBCol>
