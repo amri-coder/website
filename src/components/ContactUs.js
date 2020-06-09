@@ -10,9 +10,9 @@ return (
       <form>
         <p className="h5 text-center mb-4">Une question, une remarque ? Veuillez me contacter **</p>
         <div className="grey-text">
-          <MDBInput label="Votre nom *" icon="user" group type="text" validate error="wrong"
+          <MDBInput label="Votre nom **" icon="user" group type="text" validate error="wrong"
             success="right"/>
-          <MDBInput label="Votre E-mail *" icon="envelope" group type="email" validate error="wrong"
+          <MDBInput label="Votre E-mail **" icon="envelope" group type="email" validate error="wrong"
             success="right" />
           <MDBInput label="Objet" icon="tag" group type="text" validate error="wrong" success="right" />
           <MDBInput type="textarea" rows="2" label="Votre message" icon="pencil-alt" />
@@ -22,6 +22,7 @@ return (
             Envoyer
             <MDBIcon far icon="paper-plane" className="ml-1" />
           </MDBBtn>
+          
           
         </div>
       </form>

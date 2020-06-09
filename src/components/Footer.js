@@ -25,14 +25,13 @@ const Footer = () => {
           </MDBCol>
           <MDBCol md="6" className="title">
           Retrouvez moi !  
-            <ul>
-              <li>
+            <div className="title-a">
                 <a href="https://github.com/amri-coder"><FontAwesomeIcon icon={faGithub} /> github</a>
-              </li>
-              <li>
+            </div>
+            <div className="title-b">
+            
                 <a href="https://www.linkedin.com/in/hafedh-amri-302228187/"><FontAwesomeIcon icon={faLinkedinIn} />  LinkedIn</a>
-              </li>
-            </ul>
+            </div>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
