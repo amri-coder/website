@@ -26,18 +26,19 @@ const Footer = () => {
           <MDBCol md="6" className="title">
           Retrouvez moi !  
             <div className="title-a">
-                <a href="https://github.com/amri-coder"><FontAwesomeIcon icon={faGithub} /> github</a>
-            </div>
-            <div className="title-b">
+                <a href="https://github.com/amri-coder"><FontAwesomeIcon icon={faGithub} size="3x" color="green"/> github</a>
             
-                <a href="https://www.linkedin.com/in/hafedh-amri-302228187/"><FontAwesomeIcon icon={faLinkedinIn} />  LinkedIn</a>
+                <a href="https://www.linkedin.com/in/hafedh-amri-302228187/"><FontAwesomeIcon icon={faLinkedinIn} size="3x" color="green" />  LinkedIn</a>
             </div>
           </MDBCol>
+          
         </MDBRow>
+       
       </MDBContainer>
+     
       <div className="footer-copyright text-center py-3">
-        <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <b>Developed by : AMRI Maher</b>
+        <MDBContainer fluid>All rights reserved
+          &copy; {new Date().getFullYear()} Copyright <p>Developed by : AMRI Maher</p>
         </MDBContainer>
       </div>
     </MDBFooter>

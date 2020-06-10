@@ -5,7 +5,7 @@ import {
     Route,
     
   } from "react-router-dom";
-  import { Navbar,Nav,NavDropdown,Form,FormControl,Button } from 'react-bootstrap'
+  import { Navbar,Nav,NavDropdown,Form,FormControl,Button } from 'react-bootstrap';
   import Home from "./components/Home.js";
   import AboutUs from './components/AboutUs';
   import ContactUs from './components/ContactUs';
