@@ -14,12 +14,15 @@
     "bootstrap": "^4.5.0",
     "google-map-react": "^1.1.7",
     "mdbreact": "^4.27.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-addons-css-transition-group": "^15.6.2",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
+    "react-move": "^6.1.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
+    "react-samy-svg": "^3.0.7",
     "react-scripts": "3.4.1"
   },
   "scripts": {
