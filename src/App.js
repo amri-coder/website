@@ -24,7 +24,7 @@ class App extends React.Component{
                       
                         <Router>
 
-                            <Navbar bg="light"  expand="lg" sticky="top">
+                            <Navbar bg="primary"  expand="lg" sticky="top">
 
                                 <Navbar.Brand href="/"><FontAwesomeIcon icon={faHome} />    Amri  </Navbar.Brand>
 

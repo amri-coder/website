@@ -44,8 +44,7 @@ class  ContactUs extends React.Component{
                   </MDBContainer>
               </td>
             
-             <p><img src="https://img.icons8.com/nolan/50/cell-phone.png"/>   06.52.96.02.44</p>
-      <p><img src="https://img.icons8.com/nolan/50/email.png"/> amri.maher@yahoo.com</p>
+             <p><img src="https://img.icons8.com/nolan/50/cell-phone.png"/>   06.52.96.02.44 <img src="https://img.icons8.com/nolan/50/email.png"/> amri.maher@yahoo.com</p>
       <p><img src="https://img.icons8.com/nolan/50/address.png"/> 36 Avenue de Fouilleuse, 92500 Rueil Malmaison, IDF, France</p>
               
               <Map
