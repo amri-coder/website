@@ -70,7 +70,7 @@ const AboutUs = () => (
         <FontAwesomeIcon icon={faJoomla} size="4x" color="navy"/>
         <FontAwesomeIcon icon={faWordpress} size="4x" color="navy"/>
         <FontAwesomeIcon icon={faBootstrap} size="4x" color="navy"/>
-        
+       
       
         </p>
         

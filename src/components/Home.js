@@ -3,7 +3,7 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import "../css/home.css";
 
 
-import RobotAnimated from "./robot-animated"
+import RobotAnimated from "./robot-animated";
 
 const Home = () => (
     
