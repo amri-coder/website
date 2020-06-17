@@ -16,6 +16,7 @@ class  ContactUs extends React.Component{
   
   render (){
         return (
+          <div className="contact">
           <table className="tableContact">
             <tr>
               <td>
@@ -44,8 +45,8 @@ class  ContactUs extends React.Component{
                   </MDBContainer>
               </td>
             
-             <p><img src="https://img.icons8.com/nolan/50/cell-phone.png"/>   06.52.96.02.44 <img src="https://img.icons8.com/nolan/50/email.png"/> amri.maher@yahoo.com</p>
-      <p><img src="https://img.icons8.com/nolan/50/address.png"/> 36 Avenue de Fouilleuse, 92500 Rueil Malmaison, IDF, France</p>
+             <p><img src="https://img.icons8.com/nolan/50/cell-phone.png" alt="num tel" />   06.52.96.02.44 <img src="https://img.icons8.com/nolan/50/email.png" alt="e-mail" /> amri.maher@yahoo.com</p>
+      <p><img src="https://img.icons8.com/nolan/50/address.png" alt="ad.postale" /> 36 Avenue de Fouilleuse, 92500 Rueil Malmaison, IDF, France</p>
               
               <Map
         google={this.props.google}
@@ -58,6 +59,7 @@ class  ContactUs extends React.Component{
       />   
           </tr>
           </table>
+          </div>
         );
         }
 }
